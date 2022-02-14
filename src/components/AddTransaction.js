@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-const AddTransaction = () => {
+export const AddTransaction = () => {
   const [text, setText] = useState('');
   const [amount, setAmount] = useState(0);
   return (
@@ -23,4 +23,3 @@ const AddTransaction = () => {
   ) 
 };
 
-export default AddTransaction;
